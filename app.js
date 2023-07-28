@@ -60,6 +60,7 @@ do {
     else {
         console.log(z);
     }
+    z++;
 } while (z <= 100);
 
 // Exercise 4 Section
