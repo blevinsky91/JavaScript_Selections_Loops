@@ -17,14 +17,14 @@ else {
 console.log("EXERCISE 2:\n==========\n");
 
 for (let i = 0; i <= 100; i++) {
-    if (i % 3 == 0) {
-        console.log("FIZZ");
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log("FIZZBUZZ");
     }
     else if (i % 5 == 0) {
         console.log("BUZZ");
     }
-    else if (i % 3 == 0 && i % 5 == 0) {
-        console.log("FIZZBUZZ");
+    else if (i % 3 == 0) {
+        console.log("FIZZ");
     }
     else {
         console.log(i);
@@ -48,14 +48,14 @@ while (x <= 100) {
 //do-while
 let z = 1;
 do {
-    if (z % 3 == 0) {
-        console.log("FIZZ");
+    if (z % 3 == 0 && z % 5 == 0) {
+        console.log("FIZZBUZZ");
     }
     else if (z % 5 == 0) {
         console.log("BUZZ");
     }
-    else if (z % 3 == 0 && z % 5 == 0) {
-        console.log("FIZZBUZZ");
+    else if (z % 3 == 0) {
+        console.log("FIZZ");
     }
     else {
         console.log(z);
