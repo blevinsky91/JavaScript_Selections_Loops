@@ -69,7 +69,7 @@ console.log("EXERCISE 4:\n=========\n ");
 let value = Math.round((Math.random() * 500)); 
 let n = Math.round(Math.random() * (500 - 100) + 100); 
 
- for (i = 0; i <= n; i++) {
+ for (let i = 0; i <= n; i++) {
     if (i == n) {
         console.log("Found value!");
         break;
